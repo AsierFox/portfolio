@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV | Desarrollador Full Stack</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    @media print {
+      .no-print {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-slate-50 text-slate-900 antialiased">
+
+  <button onclick="window.print()"
+    class="no-print fixed bottom-8 right-8 bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 transition">
+    <i data-lucide="printer"></i>
+  </button>
+
+  <main class="max-w-4xl mx-auto my-12 bg-white shadow-xl border border-slate-200 rounded-lg overflow-hidden md:flex">
+
+    <aside class="w-full md:w-1/3 bg-slate-900 text-white p-8">
+      <div class="mb-8">
+        <div class="w-32 h-32 bg-blue-500 rounded-full mb-4 mx-auto overflow-hidden border-4 border-slate-800">
+          <div class="flex items-center justify-center h-full text-4xl font-bold">
+            <img src="./assets/photo.jpg" alt="Foto de perfil" class="w-full h-full object-cover">
+          </div>
+        </div>
+        <h1 class="text-2xl font-bold text-center">Asier</h1>
+        <p class="text-blue-400 text-center font-medium">Desarrollador de Software</p>
+      </div>
+
+      <div class="space-y-6">
+        <section>
+          <h3 class="text-xs uppercase tracking-widest text-slate-500 font-bold mb-4 border-b border-slate-800 pb-2">
+            Contacto</h3>
+          <ul class="space-y-3 text-sm">
+            <li class="flex items-center gap-3"><i data-lucide="mail" class="w-4 h-4 text-blue-400"></i>
+              asiergonzalez1995@gmail.com</li>
+            <li class="flex items-center gap-3"><i data-lucide="map-pin" class="w-4 h-4 text-blue-400"></i> Bilbao,
+              España</li>
+            <li class="flex items-center gap-3"><i data-lucide="github" class="w-4 h-4 text-blue-400"></i>
+              github.com/asierfox</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3 class="text-xs uppercase tracking-widest text-slate-500 font-bold mb-4 border-b border-slate-800 pb-2">
+            Tecnologías</h3>
+          <div class="flex flex-wrap gap-2 text-xs">
+            <span class="bg-slate-800 px-2 py-1 rounded">Node.js / Next.js</span>
+            <span class="bg-slate-800 px-2 py-1 rounded">Azure Web Services</span>
+            <span class="bg-slate-800 px-2 py-1 rounded">TypeScript</span>
+            <span class="bg-slate-800 px-2 py-1 rounded">Sprint Boot</span>
+            <span class="bg-slate-800 px-2 py-1 rounded">Snowflake</span>
+            <span class="bg-slate-800 px-2 py-1 rounded">Oracle / MySQL</span>
+            <span class="bg-slate-800 px-2 py-1 rounded">Git / GitHub</span>
+            <span class="bg-slate-800 px-2 py-1 rounded">Laravel</span>
+            <span class="bg-slate-800 px-2 py-1 rounded">Ionic</span>
+            <span class="bg-slate-800 px-2 py-1 rounded">Angular</span>
+          </div>
+        </section>
+      </div>
+    </aside>
+
+    <div class="w-full md:w-2/3 p-8 md:p-12 space-y-12">
+
+      <section>
+        <h2 class="text-xl font-bold text-slate-800 flex items-center gap-2 mb-4">
+          <i data-lucide="user" class="text-blue-600 w-5 h-5"></i> Sobre mí
+        </h2>
+        <p class="text-slate-600 leading-relaxed text-sm">
+          Soy un desarrollador apasionado y todo tipo de tecnologías, enfocado en el backend.
+          Tengo experiencia tanto en el ámbito empresarial, como en proyectos personales, con un enfoque en la creación
+          de soluciones de
+          gestión robustas y personalizadas, utilizando tecnologías modernas.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-bold text-slate-800 flex items-center gap-2 mb-8">
+          <i data-lucide="briefcase" class="text-blue-600 w-5 h-5"></i> Experiencia Profesional
+        </h2>
+
+        <div
+          class="space-y-10 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px before:h-full before:w-0.5 before:bg-slate-100">
+
+          <div class="relative pl-12">
+            <div
+              class="absolute left-0 top-1 w-10 h-10 bg-white border-2 border-blue-600 rounded-full flex items-center justify-center z-10">
+              <div class="w-2 h-2 bg-blue-600 rounded-full"></div>
+            </div>
+            <div>
+              <div class="flex justify-between items-start flex-wrap gap-2">
+                <h4 class="font-bold text-slate-800 text-lg leading-tight">Desarrollador de Software Senior</h4>
+                <span class="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-1 rounded uppercase">nov. 2022 -
+                  Presente</span>
+              </div>
+              <p class="text-xs font-semibold text-slate-400 mt-1 uppercase tracking-wide italic">Hiberus</p>
+              <p class="text-sm text-slate-600 mt-3">
+                Analista de software para el departamento de ingeniería de software del Banco Santander, en Santander
+                Global Tech.
+              </p>
+              <ul class="text-xs text-slate-500 mt-3 list-disc ml-4 space-y-2 leading-relaxed">
+                <li>Obtención de requisitos funcionales del cliente.</li>
+                <li>Análisis técnico y planificación para la fase de desarrollo de software.</li>
+                <li>Desarrollo en proyectos utilizando metodologías agile, con herramientas como Jira y Confluence.</li>
+                <li>Utilización del stack de Azure (Azure functions, Event Hubs, Snowflake, CosmosDB).</li>
+                <li>Desarrollo con diferentes frameworks Web backend en Node (Express y Azure functions).</li>
+                <li>Desarrollos con frameworks Web backend en Java (Spring MVC y Spring Boot).</li>
+                <li>Desarrollo con diferentes frameworks Web frontend principalmente en TypeScript y JavaScript (Ionic,
+                  Angular y Angularjs).</li>
+                <li>Utilización de diferentes Bases de Datos relacionales (Snowflake, Oracle, MySQL) y de base de datos
+                  no relacionales (MongoDB y CosmosDB).</li>
+                <li>Unit testing en JavaScript (con Sinon, Chai) y en Java (con JUnit).</li>
+                <li>Testing end to end con JavaScript utilizando Cypress, JUniy, Mocha, Chai y Sinon.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="relative pl-12">
+            <div
+              class="absolute left-0 top-1 w-10 h-10 bg-white border-2 border-slate-300 rounded-full flex items-center justify-center z-10">
+              <div class="w-2 h-2 bg-slate-300 rounded-full"></div>
+            </div>
+            <div>
+              <div class="flex justify-between items-start flex-wrap gap-2">
+                <h4 class="font-bold text-slate-800 text-lg leading-tight">Desarrollador de Software Mid</h4>
+                <span class="text-xs font-bold bg-blue-50 px-2 py-1 rounded uppercase">ago. 2019 - nov. 2022</span>
+              </div>
+              <p class="text-xs font-semibold text-slate-400 mt-1 uppercase tracking-wide italic">Avalon</p>
+              <p class="text-sm text-slate-600 mt-3">
+                Desarrollador de software para el departamento de ingeniería de software del Banco Santander, en Santander
+                Global Tech
+              </p>
+            </div>
+          </div>
+
+          <div class="relative pl-12">
+            <div
+              class="absolute left-0 top-1 w-10 h-10 bg-white border-2 border-slate-300 rounded-full flex items-center justify-center z-10">
+              <div class="w-2 h-2 bg-slate-300 rounded-full"></div>
+            </div>
+            <div>
+              <div class="flex justify-between items-start flex-wrap gap-2">
+                <h4 class="font-bold text-slate-800 text-lg leading-tight">Desarrollador de Software Mid</h4>
+                <span class="text-xs font-bold bg-blue-50 px-2 py-1 rounded uppercase">ene. 2018 - ago. 2019</span>
+              </div>
+              <p class="text-xs font-semibold text-slate-400 mt-1 uppercase tracking-wide italic">Avertia</p>
+              <p class="text-sm text-slate-600 mt-3">
+                Desarrollador de software para el departamento de ingeniería de software del Banco Santander, en Santander
+                Global Tech
+              </p>
+            </div>
+          </div>
+
+          <div class="relative pl-12">
+            <div
+              class="absolute left-0 top-1 w-10 h-10 bg-white border-2 border-slate-300 rounded-full flex items-center justify-center z-10">
+              <div class="w-2 h-2 bg-slate-300 rounded-full"></div>
+            </div>
+            <div>
+              <div class="flex justify-between items-start flex-wrap gap-2">
+                <h4 class="font-bold text-slate-800 text-lg leading-tight">Desarrollador de Software Junior</h4>
+                <span class="text-xs font-bold bg-blue-50 px-2 py-1 rounded uppercase">oct. 2017 - ene. 2018</span>
+              </div>
+              <p class="text-xs font-semibold text-slate-400 mt-1 uppercase tracking-wide italic">Altia</p>
+              <p class="text-sm text-slate-600 mt-3">
+                Desarrollando proyectos a gran escala y a medida, utilizando principalmente frameworks web en Java (Spring MVC y Spring Boot).
+              </p>
+            </div>
+          </div>
+
+          <div class="relative pl-12">
+            <div
+              class="absolute left-0 top-1 w-10 h-10 bg-white border-2 border-slate-300 rounded-full flex items-center justify-center z-10">
+              <div class="w-2 h-2 bg-slate-300 rounded-full"></div>
+            </div>
+            <div>
+              <div class="flex justify-between items-start flex-wrap gap-2">
+                <h4 class="font-bold text-slate-800 text-lg leading-tight">Desarrollador de Software Junior</h4>
+                <span class="text-xs font-bold bg-blue-50 px-2 py-1 rounded uppercase">jul. 2016 - oct. 2017</span>
+              </div>
+              <p class="text-xs font-semibold text-slate-400 mt-1 uppercase tracking-wide italic">Ideable</p>
+              <p class="text-sm text-slate-600 mt-3">
+                Desarrollando aplicaciones móviles y web en tecnologías modernas.
+              </p>
+            </div>
+          </div>
+
+          <div class="relative pl-12">
+            <div
+              class="absolute left-0 top-1 w-10 h-10 bg-white border-2 border-slate-300 rounded-full flex items-center justify-center z-10">
+              <div class="w-2 h-2 bg-slate-300 rounded-full"></div>
+            </div>
+            <div>
+              <div class="flex justify-between items-start flex-wrap gap-2">
+                <h4 class="font-bold text-slate-800 text-lg leading-tight">Instructor en Programación</h4>
+                <span class="text-xs font-bold bg-blue-50 px-2 py-1 rounded uppercase">feb. 2016 - jun. 2016</span>
+              </div>
+              <p class="text-xs font-semibold text-slate-400 mt-1 uppercase tracking-wide italic">Centro San Luis</p>
+              <p class="text-sm text-slate-600 mt-3">
+                Instructor de prácticas en Innova del Centro San Luis para los estudiantes del grado superior DAW (Desarrollo de Aplicaciones Web).
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-bold text-slate-800 flex items-center gap-2 mb-6">
+          <i data-lucide="graduation-cap" class="text-blue-600 w-5 h-5"></i> Educación
+        </h2>
+        <div class="border-l-4 border-blue-50 ml-1 pl-6">
+          <h4 class="font-bold text-sm text-slate-800 uppercase tracking-tight">Ingeniería de Software</h4>
+          <p class="text-xs text-slate-500 mt-1">Bilbao, Vizcaya</p>
+          <p class="text-xs font-bold text-blue-600 mt-2">Finalizado en 2017</p>
+        </div>
+        <br />
+        <div class="border-l-4 border-blue-50 ml-1 pl-6">
+          <h4 class="font-bold text-sm text-slate-800 uppercase tracking-tight">Grado Superior en Desarrollo de
+            Aplicaciones Web</h4>
+          <p class="text-xs text-slate-500 mt-1">Bilbao, Vizcaya</p>
+          <p class="text-xs font-bold text-blue-600 mt-2">Finalizado en 2015</p>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+
+</html>
